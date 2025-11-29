@@ -23,4 +23,21 @@ The goal is to gain hands-on experience building and managing an Active Director
 ---
 
 ## 🧩 Architecture Diagram
+Azure Resource Group (azure-lab)
+│
+├── Virtual Network (AD_VNet)
+│     └── Subnet: default (10.0.0.0/25)
+│
+├── DC-1  (Windows Server 2022)
+│     ├── Private IP: 10.0.0.4 (Static)
+│     ├── AD DS + DNS Server
+│     └── Domain: lab.local
+│
+└── CLIENT-1 (Windows 10/11)
+      ├── Private IP: 10.0.0.5 (Dynamic)
+      └── Joined to lab.local
+---
+# Step-by-Step Deployment Guide
+---
+
 
