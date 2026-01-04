@@ -171,7 +171,7 @@ When prompted:
 - Username: lab\Administrator
 - Password: (your DC admin password)
 
-📸 Insert Screenshot: Successful Domain Join Message
+📸 Successful Domain Join Message
 #### Domain Join
 <img width="497" height="326" alt="CLIENT-1_DOMAIN_JOIN" src="https://github.com/user-attachments/assets/60655de0-b057-4190-89c4-bf8733dea3e8" />
 
